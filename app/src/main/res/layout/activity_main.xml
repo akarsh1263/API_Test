@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a genre:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#070606" />
+
+    <Button
+        android:id="@+id/drama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="work"
+        android:text="Drama" />
+
+    <Button
+        android:id="@+id/action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="work"
+        android:text="Action" />
+
+    <Button
+        android:id="@+id/horror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="work"
+        android:text="Horror" />
+
+    <Button
+        android:id="@+id/comedy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="work"
+        android:text="Comedy" />
+
+    <Button
+        android:id="@+id/thriller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="work"
+        android:text="Thriller" />
+
+    <Button
+        android:id="@+id/romance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="work"
+        android:text="Romance" />
+
+    <Button
+        android:id="@+id/adv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="work"
+        android:text="Adventure" />
+
+</LinearLayout>
